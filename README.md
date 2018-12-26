@@ -1,2 +1,2 @@
-# liqingjie-github.io
+# liqingjie.github.io
 个人博客
