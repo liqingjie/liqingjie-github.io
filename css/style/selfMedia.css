@@ -1,0 +1,113 @@
+
+.top_banner, .blog_main_content .top_banner{
+    width: 100%;
+    overflow: hidden;
+    text-align: center;
+    line-height: 400px;
+    height: 400px;
+    display: flex;
+    align-items: center;
+
+}
+.top_banner img,.blog_main_content .top_banner img{
+    width: 100% !important;
+    height: auto;
+    min-height: 400px;
+    vertical-align: middle;
+}
+.icon-dui {
+    color: green
+}
+.container {
+    margin:auto!important;
+    padding: 0 15px!important;
+    box-sizing: border-box;
+}
+@media screen and (min-width: 1201px) { 
+    .selfMedia_list_content {
+        padding: 0 30px;
+        box-sizing: border-box;
+    }
+
+    .list {
+        width: 100%;
+        min-height: 220px;
+        border: 1px solid #e4e4e4;
+        margin: 50px 0;
+        border-radius: 5px;
+        padding: 50px 30px 0;
+        box-sizing: border-box;
+        display: flex;
+    }
+    .list:hover, .list:visited, .list:active {
+        border: 1px solid #999;
+    }
+    .list img {
+        width: 140px;
+        height: 140px
+    }
+    .list_info {
+        flex: 1;
+        padding-left: 30px;
+        box-sizing: border-box;
+    }
+    .list .code {
+        width: 100px;
+        height: 100px;
+    }
+    .list .code img {
+        width: 100%;
+        height: 100%;
+    }
+    .list_info p, .list_info span{
+        display: block;
+        margin: 10px 0
+    }
+    .list_info h4 {
+        font-size: 18px;
+    }
+    .list_info p {
+        font-size: 16px;
+        text-indent: 2em
+    }
+    .list_info span {
+        font-size: 12px;
+        color: #999;
+    }
+} 
+
+@media screen and (max-width: 1200px) {
+    .selfMedia_list_content {
+        padding: 0 1.5rem;
+        box-sizing: border-box;
+        margin: 1.5rem 0;
+    }
+    .list {
+        width: 100%;
+        border: 1px solid #e4e4e4;
+        margin: 50px 0;
+        border-radius: 5px;
+        padding: 50px 30px 0;
+        box-sizing: border-box;
+    }
+    .list img {
+        width: 100%
+    }
+    .list_info p, .list_info span {
+        display: block;
+        font-size: .9rem;
+        margin: 0.625rem 0!important;
+    }
+    .list_info h4 {
+        margin: 0.625rem 0!important;
+        font-size: 1rem
+    }
+    .list_info p {
+        font-size: .9rem;
+        text-indent: 2em
+    }
+    .list_info span {
+        font-size: 0.75rem;
+        color: #999
+    }    
+}
